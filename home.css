@@ -1,0 +1,215 @@
+/* #header {
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+}
+
+h1 {
+    color: white
+} */
+
+/* #icon {
+    float: left
+}
+
+#social {
+    float: right
+}
+
+.fa-brands {
+    margin: 5px;
+    font-size: 50px;
+} */
+#search {
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/background023.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/background023.png);
+    opacity: 1;
+}
+#logo {
+    font-size: 74px;
+    width: 113px;
+    height: 123px;
+    margin-left: 46%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 5%;
+}
+#logo>span {
+    margin-left: 25%;
+    color: red;
+
+}
+#heading {
+    margin-top: 16%;
+    position: absolute;
+    margin-left: 33%;
+    font: normal normal 600 36px/55px poppins;
+    color: white;
+}
+#dropdown {
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 21%;
+
+}
+select {
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+}
+#restaurant-name{
+    width: 59%;
+}
+.quicksearch {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 41px;
+  }
+  
+  .quicksearchHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+  }
+  
+  .quicksearchSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 35px;
+  }
+  
+  .tileContainer {
+    height: 150px;
+    width: 350px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    box-shadow: 0 3px 6px gray;
+    float: left;
+  }
+  
+  .tileComponent1 {
+    width: 45%;
+    float: left;
+  }
+  
+  .tileComponent2 {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .componentHeading {
+    text-align: left;
+    color: #192f60;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .componentSubHeading {
+    text-align: left;
+    color: gray;
+    font-size: 18px;
+  }
+  
+  .qs-block {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .marg-bot {
+    margin-bottom: 10px;
+  }
+  
+  .heading {
+    width: 88px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  
+
+/* Footer */
+
+ footer {
+  height: 220px;
+    margin-top: 33%;
+    margin-bottom: 12px;
+    padding: 40px 0;
+    background-color:rgb(204, 198, 186)   
+}
+footer .social{
+  text-align: center;
+  padding-bottom: 25px;
+  color: #4b4c4b;
+}
+footer .social a{
+  font-size: 20px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 4px;
+  opacity: 0.75;
+}
+footer .social a:hover{
+  opacity: 0.9;
+
+}
+footer ul{
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  list-style: none;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li{
+  display: inline-block;
+  padding: 0 15px;
+}
+footer ul li a:hover{
+  opacity: 1;
+  color: inherit ;
+}
+footer .copyright p {
+  margin-top: 37px;
+  text-align: center;
+  color: #807474;
+}
